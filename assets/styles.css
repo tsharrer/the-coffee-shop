@@ -176,7 +176,8 @@ a:hover { color: #fff; }
 .hours li { display: flex; justify-content: space-between; padding: .35rem 0; color: var(--muted); border-bottom: 1px dashed var(--line); }
 .hours li:last-child { border-bottom: 0; }
 .info-block a { color: var(--ink); border-bottom: 1px solid var(--line); }
-.info-block a.btn { border-bottom: 0; }
+.info-block a.btn { border-bottom: 0; color: #0f0f10; }
+.info-block a.btn:hover { color: #000; }
 .socials { display: flex; gap: 1.2rem; margin-top: .4rem; }
 .visit-map iframe { width: 100%; height: 100%; min-height: 420px; border: 1px solid var(--line); border-radius: var(--radius); filter: grayscale(100%) contrast(1.05); }
 
