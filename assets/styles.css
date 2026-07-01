@@ -76,6 +76,8 @@ a:hover { color: #fff; }
 .nav-links { list-style: none; display: flex; align-items: center; gap: 1.7rem; margin: 0; padding: 0; }
 .nav-links a { color: var(--ink); font-weight: 500; text-transform: uppercase; letter-spacing: .1em; font-size: .82rem; }
 .nav-links a:hover { color: #fff; }
+.nav-links a.btn { color: #0f0f10; letter-spacing: .02em; }
+.nav-links a.btn:hover { color: #000; }
 .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: 0; cursor: pointer; padding: 6px; }
 .nav-toggle span { width: 24px; height: 2px; background: var(--ink); border-radius: 2px; transition: .3s; }
 
